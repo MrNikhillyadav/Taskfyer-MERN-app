@@ -23,7 +23,7 @@ function Header() {
           <span role="img" aria-label="wave">
             👋 
           </span>
-          {userId ? `Welcome, ${name}!` : "Let's get productive!"}
+          {userId ? `Welcome, ${name}!` : "To your task manager app."}
         </h1>
         <p className="text-sm">
           {userId ? (
@@ -41,7 +41,7 @@ function Header() {
       </div>
       <div className="h-[50px] flex items-center gap-[10.4rem]">
         <button
-          className="px-8 py-3 bg-[#00A1F1] text-white rounded-[50px]
+          className="px-8 py-3 bg-purple-500 text-white rounded-[50px]
           hover:bg-[#00A1F1] hover:text-white transition-all duration-200 ease-in-out"
           onClick={() => {
             if (userId) {

@@ -41,11 +41,8 @@ function MiniSidebar() {
   ];
   return (
     <div className="basis-[5rem] flex flex-col bg-[#f9f9f9]">
-      <div className="flex items-center justify-center h-[5rem]">
-        <Image src="/logo.png" width={28} height={28} alt="logo" />
-      </div>
-
-      <div className="mt-8 flex-1 flex flex-col items-center justify-between">
+   
+      <div className=" mt-20 flex-1 flex flex-col items-center justify-between">
         <ul className="flex flex-col gap-10">
           {navItems.map((item, index) => (
             <li key={index} className="relative group">
